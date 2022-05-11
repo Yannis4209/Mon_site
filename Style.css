@@ -1,0 +1,68 @@
+#nav {
+	padding: 0; margin: 0; /* espace entre la marge du haut et le menu */
+	text-align: center; /*centre le texte */
+}
+
+#nav li {
+	display: inline; 
+	list-style: none; /* nécéssaire pour IE7 */
+}
+
+#nav a {
+	display: inline-block; 
+	margin: 10 40 10 40px;
+	width: 120px; 
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	color: Black; /* couleur du texte */ 
+	height: 30px; /* hauteur */
+	line-height: 3 50 3 50px /* interligne */
+	padding: 0 50px; /* marges intérieur */
+	font-family: sans-serif; /* police d'écriture */
+	font-size: 25px; /* taille du texte */
+}
+
+#nav a:hover{
+    background: fixed red;
+} /* fond en passant la souris sur accueil, activité et illustration */
+
+h1{
+    color: black;
+    font-size: 25px;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+img{
+    width: 50%;
+}
+
+h2{
+    color: green;
+    font-size: 25px;
+}
+
+table {
+	border : 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td {
+	border : 1px solid black;
+}
+
+#Jaune{
+    background-color: yellow;
+}
+
+caption{ 
+    color: red;
+    text-decoration: underline;
+    padding: 15px;
+}
