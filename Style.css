@@ -26,7 +26,7 @@
 } /* fond en passant la souris sur accueil, activité et illustration */
 
 h1{
-    color: black;
+    color: red ;
     font-size: 25px;
 }
 
@@ -61,8 +61,9 @@ td {
     background-color: yellow;
 }
 
-caption{ 
-    color: red;
-    text-decoration: underline;
-    padding: 15px;
+caption{
+	font-size: 30px;
+	color: red;
+	text-decoration: underline;
+	padding-bottom: 10px;
 }
