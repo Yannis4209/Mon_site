@@ -1,6 +1,18 @@
+body{
+	background-image: url(neige.jpg);
+}
+
+#banniere{
+	width: 90%;
+	margin-left: auto ;	
+	margin-right: auto;
+}
+
 #nav {
-	padding: 0; margin: 0; /* espace entre la marge du haut et le menu */
+	padding: 0; 
+	margin: auto;
 	text-align: center; /*centre le texte */
+	width: px;
 }
 
 #nav li {
@@ -11,19 +23,21 @@
 #nav a {
 	display: inline-block; 
 	margin: 10 40 10 40px;
-	width: 120px; 
+	width: 300px; 
 	text-decoration: none; /* pas d'héritage avec effet souligné */
-	color: Black; /* couleur du texte */ 
+	color: black; /* couleur du texte */ 
 	height: 30px; /* hauteur */
-	line-height: 3 50 3 50px /* interligne */
+	line-height: 30 50 3 50px; /* interligne */
 	padding: 0 50px; /* marges intérieur */
 	font-family: sans-serif; /* police d'écriture */
 	font-size: 25px; /* taille du texte */
 }
 
 #nav a:hover{
-    background: fixed red;
-} /* fond en passant la souris sur accueil, activité et illustration */
+    background: fixed red; /* fond en passant la souris sur accueil, activité et illustration */
+	width: auto;
+	height: auto;
+} 
 
 h1{
     color: red ;
@@ -66,4 +80,81 @@ caption{
 	color: red;
 	text-decoration: underline;
 	padding-bottom: 10px;
+}
+
+fieldset{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+legend{
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+label{
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px;
+}
+
+em{
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+
+input :focus{
+	background: #FA8072;
+}
+
+input{
+	vertical-align: baseline;
+	padding: 2px;
+	margin: 2px;
+}
+
+textarea{
+	height: 100px;
+	width: 300px;
+}
+
+select{
+	width: 180px;
+}
+
+input[type=radio] {
+	width: 10px;
+	/*vertical-align: baseline;
+	padding: 2px;
+	margin: 2px;*/
+}
+
+input[type=checkbox] {
+	width: 10px;
+}
+
+input[type=submit] {
+	width: 200px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: space-around;
+	align-content: space-around;
+	background-color: azure;
+	width: 100%;
+	height: 200px;
+	border: 2px solid blue;
+	box-sizing: border-box;
 }
