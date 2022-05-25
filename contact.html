@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img id="banniere" src="banniere1.png" alt="banniere Image"/>
+    <header>
+            
+    </header>
+
+     <nav>
+        <ul id="nav">
+            <li><a href=" Accueil.html">Accueil</a></li>
+            <li><a href="présentation_cv.html">Présentation de mon CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact</h1>
+    
+    <h2>Formulaire de contact</h2>
+    
+<form action="#">
+    <p><i>Compléter le formulaire. Les champs marqué par </i><em>*</em>sont <em>obligatoires</em></p>
+    <fieldset>
+        <legend>Contact</legend>
+
+        <div>
+            <label for="madame"><input id="madame" type="radio" name="civ" value="madame"> Madame</label>
+            <label for="monsieur"><input id="monsieur" type="radio" name="civ" value="monsieur"> Monsieur</label>
+        </div>
+
+            <br>
+
+            <label for="Nom">Nom <em>*</em></label>
+            <input id="Nom" placeholder="Nom" autofocus="" required=""><br><br>
+
+            <label for="Prénom">Prenom <em>*</em></label>
+            <input id="Prénom" placeholder="Prenom" autofocus="" required=""><br><br>
+
+            <label for="Téléphone">Téléphone <em>*</em></label>
+            <input id="Téléphone" placeholder="Téléphone" autofocus="" required=""><br><br>
+
+            <label for="Email">Email <em>*</em></label>
+            <input id="Email" placeholder="Email" autofocus="" required=""><br><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Informations personnelles</legend>
+
+        <label for="Age">Age<em>*</em></label>
+        <input id="Age" placeholder="Age" autofocus="" required=""><br>
+
+        <label for="Sexe">Sexe<em>*</em></label>
+        <select id="Sexe">
+            <option value="" name="choix">Sélectionner votre choix</option>
+            <option value="Femme" name="Femme">Femme</option>
+            <option value="Homme" name="Homme">Homme</option>
+        </select><br>
+
+        <label for="commentaires">Pourquoi voulez-vous nous rejoindre ? </label><br>
+        <textarea id="commentaires"></textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Choisissez vos loisirs favoris</legend>
+        <label for="Football"><input id="Football" type="checkbox" name="binet" value="chat"> Football</label>
+        <label for="Basketball"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Basketball</label>
+        <label for="Tennis"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Tennis</label>
+        <label for="Handball"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Handball</label>
+        <label for="Badmininton"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Badmininton</label>
+        <label for="Tennis de table"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Tennis de table</label>
+        <label for="Ski"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Ski</label>
+        <label for="Course à pied"><input id="chatnoir" type="checkbox" name="binet" value="chat"> Course à pied</label>
+    </fieldset>
+    <p><center><input type="Submit" value="Envoyer"></center></p>
+
+</form>
+</body>
+</html>
